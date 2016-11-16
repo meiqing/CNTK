@@ -391,6 +391,7 @@ void PrintBuiltInfo()
 #ifdef _GIT_EXIST
     LOGPRINTF(stderr, "\t\tBuild Branch: %s\n", _BUILDBRANCH_);
     LOGPRINTF(stderr, "\t\tBuild SHA1: %s\n", _BUILDSHA1_);
+    LOGPRINTF(stderr, "\t\tBuild Tag: %s\n", _BUILDTAG_);
 #endif
 #ifdef _BUILDER_
     LOGPRINTF(stderr, "\t\tBuilt by %s on %s\n", _BUILDER_, _BUILDMACHINE_);
